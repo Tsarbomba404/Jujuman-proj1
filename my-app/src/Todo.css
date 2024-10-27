@@ -1,0 +1,49 @@
+
+
+
+input[type="text"]{
+    border: 2px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    
+}
+
+
+.button-house{
+    border: 2px solid black;
+    width:120px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px ;
+    padding: 5px;
+   
+}
+.button-house .delete-button {
+    border-radius: 10px ;  /* Adjust the radius as needed */
+    border: 1.6px solid rgb(0, 0, 0);
+}
+
+.delete-button:hover{
+    background-color: rgb(105, 105, 105);
+}
+.add-button{
+    padding: 10px;
+    font-size:13px;
+    border-radius: 5px ;
+}
+.delete-button{
+    color: rgb(216, 32, 32);
+    padding: 9px;
+    border-radius: 22px grey;
+
+}
+
+li{
+    display: flex;
+background-color: rgb(193, 179, 243);
+justify-content: space-between;
+width: 30vw;
+border-radius: 10px;
+padding: 5px;
+margin: 5px;
+}

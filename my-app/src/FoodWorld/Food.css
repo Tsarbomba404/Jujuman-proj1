@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet');
+
+
+
+*{
+    margin: 0;
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.house{
+display: grid;
+justify-content: center;
+align-items: center;
+grid-template-columns: repeat(3, 3fr);
+background-color: rgb(255, 255, 255);
+width:550px;
+gap: 30px;
+padding: 40px 40px;
+}
+
+.image-container{
+    position: relative;
+    margin-bottom: 30px;
+    
+
+}
+.house-1 img{
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+.add-to-cart {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    width: 120px;
+    height: 36px;
+    border: 1px solid hsl(14, 86%, 42%);
+
+}
+
+.hover-house{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: hsl(14, 86%, 42%);
+    width: 100%;
+    height: 100%;
+    padding: 0 8px;
+    border-radius: inherit;
+}
+.hover-house span{
+    padding: 0px 5px;
+}
+
+button{
+    border: none;
+}
+
+.hover-house button{
+    border-radius: 50%;
+    font-size: 12px;
+    gap:10px;
+}
+
+
+.add-to-cart img{
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+
+.house-2{
+    font-size: 10px;
+    color: hsl(14, 25%, 72%);
+    margin-bottom: 1px;
+}
+.house-3{
+    font-size: 14px;
+    margin-bottom: 1px;
+    margin : 4px 0;
+}
+.house-4{
+    font-size: 12px;
+    color: hsl(14, 86%, 42%);
+    
+
+}
+
+
+
+
